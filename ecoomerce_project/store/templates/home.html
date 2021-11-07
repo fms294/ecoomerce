@@ -30,13 +30,13 @@ Home
         <div class="col-9 mx-auto col-md-6 col-lg-3">
             <div class="card mb-4" style="border-color: transparent;">
                 <div class="p-5">
-                    <img src="{{product.image.url}}" class="card-img-top" alt="{{product.name}}">
+                    <img src="{{ product.image.url }}" class="card-img-top" alt="{{product.name}}">
                 </div>
 
                 <div class="card-footer d-flex justify-content-between"
                     style="background: transparent ; border-color: transparent;">
                     <p class="font-weight-bold-mb-0">
-                        {{product.name}}
+                        <b>{{product.name}}</b>
                     </p>
                     <h5 class="text-info font-italic mb-0">
                         <span class="mr-1">$</span>{{product.price}}
